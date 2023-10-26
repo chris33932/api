@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
 use Doctrine\ORM\EntityManagerInterface;
 
-class LibraryController extends AbstractController
+class LibraryControllerCatch extends AbstractController
 {
     private $logger;
 

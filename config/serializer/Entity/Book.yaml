@@ -1,6 +1,6 @@
-App\Entity\Book;
+App\Entity\Book:
     attributes:
         id:
             groups: ['book']
-        titles:
+        title:
             groups: ['book']
