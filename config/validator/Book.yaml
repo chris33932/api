@@ -1,0 +1,10 @@
+App\Form\Model\BookDto:
+    properties:
+        title:
+          - NotBlank: ~
+          - Length:
+              min: 2
+              max: 50
+              minMessage: 'El título del libro no debe ser menor a 2 caracteres'
+              maxMessage: 'El título del libro no debe ser mayor a 50 caracteres'
+              allowEmptyString: false
